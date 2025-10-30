@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${SchibstedGrotesk.variable} ${MartianMono.variable} antialiased`}
+        className={`${SchibstedGrotesk.variable} ${MartianMono.variable} antialiased min-h-screen`}
       >
         {children}
       </body>
